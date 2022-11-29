@@ -1,121 +1,203 @@
-# 01 HTML CSS Git: Code Refactor
 
-## Your Task
+<br />
+<div align="center">
+  <a href="https://github.com/MRMODonnell/MODBootCampC1">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-**Note**: Be sure to review the [Challenge Guide](./Challenge-Guide.md) and the [Good README Guide](./Good-README-Guide.md) before you start working on this assignment!
+<h3 align="center">project_title</h3>
 
-This week your challenge is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's challenge involves a very important aspect of web development: **accessibility**. 
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/MRMODonnell/MODBootCampC1"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/MRMODonnell/MODBootCampC1">View Demo</a>
+    ·
+    <a href="https://github.com/MRMODonnell/MODBootCampC1">Report Bug</a>
+    ·
+    <a href="https://github.com/MRMODonnell/MODBootCampC1">Request Feature</a>
+  </p>
+</div>
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
 
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
 
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-Are you ready to jump in? Here are this week's challenge requirements:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### User Story
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
-### Acceptance Criteria
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Your website must meet accessibility standards. You can achieve this completing the following:
 
-* Semantic HTML elements can be found throughout the source code
-* HTML elements follow a logical structure independent of styling and positioning
-* Image and icon elements contain accessible `alt` attributes
-* Heading attributes fall in sequential order
-* Title elements contain a concise, descriptive title
 
-### Resources:
+<!-- GETTING STARTED -->
+## Getting Started
 
-* [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-### Mock-Up
+### Prerequisites
 
-The following image shows the web application's appearance and functionality:
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](Assets/01-html-css-git-challenge-demo.png)
+### Installation
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
 
-### Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
 
-1. Create a new repository on your GitHub account and clone it to your computer.
 
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
+<!-- USAGE EXAMPLES -->
+## Usage
 
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-4. On the Settings page, scroll down to the GitHub Pages section. Then, in the section labeled Source, select the `main` branch as your source.
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
 
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
 
-Be sure to add, commit, and push your work to see the most up-to-date version of your app!
+<!-- ROADMAP -->
+## Roadmap
 
-### Requirements
+- [ ] Feature 1
+- [ ] Feature 2
+- [ ] Feature 3
+    - [ ] Nested Feature
 
-This challenge is assessed on the following criteria: 
+See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
-#### Technical Acceptance Criteria: 40%
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* Satisfies all of the above acceptance criteria plus the following code improvements:
 
-  * Application's links all function correctly.
 
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+<!-- CONTRIBUTING -->
+## Contributing
 
-  * Application's CSS file is properly commented.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-#### Deployment: 32%
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-* Application deployed at live URL.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-* Application loads with no errors.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* Application GitHub URL submitted.
 
-* GitHub repository that contains application code.
 
-#### Application Quality: 15%
+<!-- LICENSE -->
+## License
 
-* Application resembles (at least 90%) screenshots provided in the challenge instructions.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-#### Repository Quality: 13%
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* Repository has a unique name.
 
-* Repository follows best practices for file structure and naming conventions.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+<!-- CONTACT -->
+## Contact
 
-* Repository contains multiple descriptive commit messages.
+Your Name - [@MRODonell93](https://twitter.com/MRODonnell93) - Email: 
 
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
-### Review
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You are required to submit the following for review:
 
-* The URL of the deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+* []()
+* []()
+* []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-url]: https://github.com/github_username/repo_name/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-url]: https://github.com/github_username/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-url]: https://github.com/github_username/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_username
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
